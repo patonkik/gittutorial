@@ -10,3 +10,9 @@ def isPrime(n):
         if n % i == 0:
             return False
     return True
+def factorial(n):
+    '''Returns the factorial of a number'''
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n-1)
